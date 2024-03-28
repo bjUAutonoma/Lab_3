@@ -82,7 +82,7 @@ public class Lab_3 {
                     if (uno[9]!=0 && dos[9]!=0){
                         for (int i=0;i<10;i++){
                             producto[i] = uno[i]*dos[i];
-                            System.out.println(producto[i]);
+                            //System.out.println(producto[i]);
                         }
                     }
                     productoexist=true;
@@ -92,7 +92,7 @@ public class Lab_3 {
                     if (uno[9]!=0 && dos[9]!=0){
                         for (int i=0;i<10;i++){
                             resta[i] = uno[i]-dos[i];
-                            System.out.println(resta[i]);
+                            //System.out.println(resta[i]);
                         }
                     }
                     restaexist=true;
@@ -122,23 +122,23 @@ public class Lab_3 {
                             && parimparexist==true){
                         for (int i=0;i<10;i++){
                             matriz[0][i]=uno[i];
-                            System.out.println(matriz[0][i]);
+                            //System.out.println(matriz[0][i]);
                         }
                         for (int i=0;i<10;i++){
                             matriz[1][i]=dos[i];
-                            System.out.println(matriz[1][i]);
+                            //System.out.println(matriz[1][i]);
                         }
                         for (int i=0;i<10;i++){
                             matriz[2][i]=producto[i];
-                            System.out.println(matriz[1][i]);
+                            //System.out.println(matriz[1][i]);
                         }
                         for (int i=0;i<10;i++){
                             matriz[3][i]=resta[i];
-                            System.out.println(matriz[1][i]);
+                            //System.out.println(matriz[1][i]);
                         }
                         for (int i=0;i<10;i++){
                             matriz[4][i]=parimpar[i];
-                            System.out.println(matriz[1][i]);
+                            //System.out.println(matriz[1][i]);
                         }
                     }
                     
